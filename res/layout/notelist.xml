@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     
+   >
+   
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btmLayout"
+        android:layout_below="@+id/textViewTop"
+        
+        android:divider="#D3D3D3"
+        android:dividerHeight="1sp" 
+        android:footerDividersEnabled="true" />
+
+    <LinearLayout
+        android:id="@+id/btmLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"        
+        android:layout_alignParentBottom="true"
+        
+        android:background="#F3F4F6"
+        >
+
+    	<Button
+    	    android:id="@+id/addnotebutton"
+    	    android:layout_width="50dp"
+    	    android:layout_height="wrap_content"
+    	    android:background="@drawable/createnew" />
+
+    </LinearLayout>
+    
+</RelativeLayout>

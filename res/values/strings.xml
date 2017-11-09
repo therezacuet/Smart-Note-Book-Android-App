@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Note Book</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about">About</string>
+    <string name="title">Title : </string>
+    <string name="menu_delete">Delete Item</string>
+    <string name="no_title">No Title</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="save_menu_noteedit">Save</string>
+    <string name="delete_menu_noteedit">Delete</string>
+    <string name="create_note">Create New</string>
+
+</resources>
